@@ -1,28 +1,19 @@
-# Vivado generated files
+# Vivado temporary files and logs
 .Xil/
 *.jou
 *.log
 *.str
 *.wdb
 *.vcd
-*.pb
-*.dcp
+
+# Generated implementation outputs
 *.bit
 *.bin
-*.ltx
 *.mcs
-*.prm
+*.ltx
+*.dcp
 *.rpt
-*.cache/
-*.runs/
-*.hw/
-*.ip_user_files/
-*.gen/
-*.sim/
 
-# Operating system
+# Operating system files
 .DS_Store
 Thumbs.db
-
-# Editor files
-.vscode/
