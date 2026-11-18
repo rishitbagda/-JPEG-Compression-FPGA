@@ -2,7 +2,7 @@ name: Apply organized project
 on:
   push:
     branches: [main]
-    paths: [project-replacement.zip]
+    paths: [1-project-replacement.zip, .github/workflows/apply-project.yml]
 permissions:
   contents: write
 jobs:
@@ -15,7 +15,7 @@ jobs:
           python3 - <<'PY'
           import hashlib, pathlib, shutil, zipfile
           root = pathlib.Path.cwd()
-          bundle = root / 'project-replacement.zip'
+          bundle = root / '1-project-replacement.zip'
           expected = '0c1d84f1d1804eba05c9b84183ae347111465b91fecb848981d800642973e951'
           assert hashlib.sha256(bundle.read_bytes()).hexdigest() == expected
           stage = root.parent / 'approved-project-stage'
