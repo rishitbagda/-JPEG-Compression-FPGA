@@ -1,0 +1,9 @@
+TB_INFO custom image: 89600 pixels from image.hex (320x280)
+TB_INFO fed 89600 custom pixels (320x280) from image.hex
+TB_CHECK jpg_done: PASS
+TB_INFO image=320x280 pattern=2 jpg_bytes=31253 scan_bytes=30628
+TB_CHECK scan_bytes: PASS (30628 bytes)
+TB_CHECK byte_count (header 623 + scan + EOI 2): PASS
+TB_CHECK fifo_full_err: PASS (no overflow)
+TB_CHECKS ALL PASS
+TB_INFO complete JPEG: fpga.jpg; input reference: input.ppm

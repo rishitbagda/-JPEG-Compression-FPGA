@@ -1,19 +1,16 @@
-# Vivado temporary files and logs
+# Generated projects and local simulation outputs
+/build/
 .Xil/
 *.jou
 *.log
 *.str
+*.pb
 *.wdb
 *.vcd
-
-# Generated implementation outputs
-*.bit
-*.bin
-*.mcs
-*.ltx
-*.dcp
-*.rpt
-
-# Operating system files
+*.vvp
+__pycache__/
+*.py[cod]
+.venv/
 .DS_Store
-Thumbs.db
+/encoded.jpg
+/fpga_out.jpg

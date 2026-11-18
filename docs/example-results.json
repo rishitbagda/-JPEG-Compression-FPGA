@@ -1,0 +1,20 @@
+[
+  {
+    "example": "grayscale",
+    "width": 240,
+    "height": 240,
+    "raw_rgb_bytes": 172800,
+    "jpeg_bytes": 19716,
+    "raw_to_jpeg_ratio": 8.764455264759587,
+    "psnr_db": 31.479772097796502
+  },
+  {
+    "example": "color",
+    "width": 240,
+    "height": 240,
+    "raw_rgb_bytes": 172800,
+    "jpeg_bytes": 24448,
+    "raw_to_jpeg_ratio": 7.0680628272251305,
+    "psnr_db": 26.89771227521597
+  }
+]
